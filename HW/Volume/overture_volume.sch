@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +44,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VRX2 P1
+L VRx2 P1
 U 1 1 526B4A43
 P 4100 2650
 F 0 "P1" H 4025 2575 40  0000 C CNN
@@ -53,17 +52,6 @@ F 1 "50K Log" H 4100 2725 40  0000 C CNN
 F 2 "RK27112" H 4100 2650 60  0001 C CNN
 F 3 "~" H 4100 2650 60  0000 C CNN
 	1    4100 2650
-	0    -1   1    0   
-$EndComp
-$Comp
-L VRX2 P1
-U 2 1 526B4A52
-P 4100 3300
-F 0 "P1" H 4025 3225 40  0000 C CNN
-F 1 "50K Log" H 4100 3375 40  0000 C CNN
-F 2 "RK27112" H 4100 3300 60  0001 C CNN
-F 3 "~" H 4100 3300 60  0000 C CNN
-	2    4100 3300
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -222,4 +210,15 @@ Wire Wire Line
 	4225 3300 4500 3300
 Wire Wire Line
 	4500 3500 4500 3600
+$Comp
+L VRx2 P1
+U 2 1 55A9E749
+P 4100 3300
+F 0 "P1" H 4025 3225 40  0000 C CNN
+F 1 "50K Log" H 4100 3375 40  0000 C CNN
+F 2 "RK27112" H 4100 3300 60  0001 C CNN
+F 3 "" H 4100 3300 60  0000 C CNN
+	2    4100 3300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

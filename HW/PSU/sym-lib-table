@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name suf)(type Legacy)(uri C:/DATA/KiCAD/library/suf.lib)(options "")(descr ""))
+  (lib (name conn1)(type Legacy)(uri C:/DATA/KiCAD/library/conn.lib)(options "")(descr ""))
+  (lib (name interface)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/interface.lib)(options "")(descr ""))
+)

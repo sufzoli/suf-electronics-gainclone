@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name suf_poweramp)(type Legacy)(uri C:/DATA/SourceControl/KiCAD/libraries/suf_poweramp.lib)(options "")(descr ""))
+)
